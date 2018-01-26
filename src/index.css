@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.validation-errors {
+  color: red;
+}
+
+header a, .pagination a {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  background-color: lightskyblue;
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover, .hotelCard a:hover, .pagination a:hover, .postReviewButton:hover {
+  background-color: lightblue;
+}
+
+.active {
+  color: lightseagreen;
+  background-color: azure;
+}
+
+.hotelCard {
+  display: inline-block;
+  width: 363px;
+  border: 1px solid lightseagreen;
+  text-align: center;
+  padding-top: 20px;
+  margin-right: 5%;
+}
+
+.hotelCard img, .hotel-details img {
+  width: 90%;
+}
+
+.pagination {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.hotel-details { 
+  border: 1px solid lightseagreen;
+  max-width: 70%;
+  margin: 0 auto;
+  border: 1px solid lightseagreen;
+  margin-bottom: 85px;
+}
+
+.hotels-list-wrapper {
+  position: relative;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.hotelCard a {
+  height: 16px;
+  padding: 13px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: lightskyblue;
+  color: white;
+}
+
+.hotelCard:nth-child(3) {
+  margin-right: 0px;
+}
+
+.hotelCard img {
+  height: 250px;
+}
+
+.hotel-details img {
+  height: 420px;
+  width: 620px;
+  margin-top: 20px;
+}
+
+.back-button {
+  position: absolute;
+  left: 5%;
+  top: 80px;
+  background-color: palevioletred;
+  color: white;
+  text-decoration: none;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.comment textarea {
+  width: 500px;
+  height: 150px;
+}
+
+.postReviewButton {
+  display: block;
+  background-color: lightskyblue;
+  color: white;
+  padding: 12px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+#reviews article {
+  border: 1px solid lightseagreen;
+  width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 40px;
+  margin-bottom: 30px;
+}
+
+#reviews form {
+  margin-bottom: 100px;
+}
+
+.reviews-block {
+  border: 1px solid lightseagreen;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.date {
+  font-style: italic;
+}
